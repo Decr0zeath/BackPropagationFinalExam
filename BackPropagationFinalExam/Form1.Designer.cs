@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 187);
+            this.ClientSize = new System.Drawing.Size(396, 187);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.cmbInput2);
             this.Controls.Add(this.cmbInput1);
@@ -123,7 +123,7 @@
             this.Controls.Add(this.btnTrain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bayocot Backpropagation Final Exam Code";
             this.ResumeLayout(false);
             this.PerformLayout();
 
