@@ -45,6 +45,7 @@
             this.btnTrain.TabIndex = 0;
             this.btnTrain.Text = "Train";
             this.btnTrain.UseVisualStyleBackColor = true;
+            this.btnTrain.Click += new System.EventHandler(this.btnTrain_Click);
             // 
             // btnTest
             // 
@@ -54,6 +55,7 @@
             this.btnTest.TabIndex = 1;
             this.btnTest.Text = "Test";
             this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // label1
             // 
