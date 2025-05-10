@@ -60,7 +60,7 @@ namespace BackPropagationFinalExam
                 double i2 = double.Parse(cmbInput2.Text);
 
                 double output = Predict(new double[] { i1, i2 });
-                lblOutput.Text = $"Output: {Math.Round(output, 3)}";
+                lblOutput.Text = $"Output: \n{Math.Round(output, 3)}";
             }
             catch
             {
